@@ -1,0 +1,30 @@
+•AIM
+            To define a class Member with attributes member Id and member Name, and to implement a constructor and a method to display member details using object-oriented programming concepts in Java.                                                         
+•ALGORITHM
+    1.Start the program.
+    2.Define a class Member with two attributes: memberId and memberName.
+    3. Create a constructor to initialize these attributes.
+    4.Define a method displayInfo() to print the member details.
+    5.In the main() method, create an object of the class and call displayInfo().
+•JAVA CODE
+package assign;
+public class Member {
+    private int memberId;
+    private String memberName;
+public Member(int memberId, String memberName) {
+        this.memberId = memberId;
+        this.memberName = memberName;
+    }
+public void displayInfo() {
+       System.out.println("Member ID: " + memberId);
+        System.out.println("Member Name: " + memberName);
+    }
+public static void main(String[] args) {
+        Member member1 = new Member(101, "Alice Johnson");
+        member1.displayInfo();
+    }
+}
+•OUTPUT
+Member ID: 101
+Member Name: Alice Johnson
+
