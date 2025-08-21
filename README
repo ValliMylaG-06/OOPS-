@@ -1,0 +1,40 @@
+📘 Member Class – Java OOPs Project
+🔷 Introduction / Theory
+
+This project demonstrates the basic principles of Object-Oriented Programming (OOP) using Java. The goal is to define a simple Member class that contains two attributes: memberId and memberName. The program uses a constructor to initialize these attributes and a method to display the member's details.
+
+It is a beginner-level Java application that helps understand how to:
+
+Define and use classes and objects
+
+Use constructors
+
+Apply encapsulation by using private variables
+
+Access data using public methods
+
+This small Java project is ideal for learning and demonstrating class creation, object instantiation, and method calling in Java.
+
+🎯 Aim
+
+To define a class Member with attributes memberId and memberName, and to implement a constructor and a method to display member details using Java OOP concepts.
+
+⚙️ Technologies Used
+
+Language: Java
+
+IDE: Eclipse (can also be run in VS Code or command line)
+
+JDK: Java SE 21 (or compatible version)
+
+🧠 Key Concepts Applied
+
+Classes and Objects
+
+Encapsulation
+
+Constructor
+
+Method definition and invocation
+
+Package declaration
