@@ -38,3 +38,44 @@ Constructor
 Method definition and invocation
 
 Package declaration
+
+
+📘 Copy File Using Byte Streams – Java Project
+
+🔷 Introduction / Theory
+This project demonstrates how to copy a file using byte streams in Java. The program reads bytes from a source file (input.txt) and writes them to a destination file (output.txt) using FileInputStream and FileOutputStream.
+
+It uses try-with-resources to automatically manage stream closing and prints a success message after the copy is complete.
+
+This beginner-level Java project helps understand how to:
+
+Work with byte streams for file I/O
+
+Use try-with-resources for automatic resource management
+
+Read from and write to files in Java
+
+🎯 Aim
+To copy the contents of a source file to a destination file using byte streams in Java.
+
+⚙️ Technologies Used
+
+Language: Java
+
+IDE: Eclipse, VS Code, or command line
+
+JDK: Java SE 21 (or compatible version)
+
+🧠 Key Concepts Applied
+
+FileInputStream & FileOutputStream
+
+Byte stream handling
+
+Exception handling
+
+Try-with-resources
+
+📄 Example Output
+
+File copied successfully from input.txt to output.txt
