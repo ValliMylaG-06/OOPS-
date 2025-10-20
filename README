@@ -79,3 +79,70 @@ Try-with-resources
 📄 Example Output
 
 File copied successfully from input.txt to output.txt
+
+
+📘 Scheduled Executor Example – Schedule Tasks to Run at Fixed Intervals
+🔷 Introduction / Theory
+
+This project demonstrates how to schedule tasks to run automatically at fixed time intervals using the ScheduledExecutorService in Java.
+The program creates a scheduled executor that repeatedly executes a task at a fixed rate. It prints the current time every few seconds and then stops after a given duration.
+
+This project helps beginners understand how to:
+
+Use Java’s concurrent package
+
+Create and manage a scheduled executor
+
+Execute tasks at fixed intervals
+
+Gracefully shut down executors after use
+
+🎯 Aim
+
+To schedule a recurring task that executes at fixed time intervals using ScheduledExecutorService in Java.
+
+⚙️ Technologies Used
+
+Language: Java
+
+IDE: Eclipse / VS Code / IntelliJ / Command Line
+
+JDK: Java SE 21 (or compatible version)
+
+🧠 Key Concepts Applied
+
+ScheduledExecutorService
+
+Executors.newScheduledThreadPool()
+
+scheduleAtFixedRate() method
+
+Runnable interface
+
+Automatic thread scheduling
+
+Graceful shutdown using shutdown()
+
+🧩 Algorithm (in 5 Steps)
+
+Import Required Packages: Import classes from java.util.concurrent.
+
+Create Executor: Create a ScheduledExecutorService using Executors.newScheduledThreadPool().
+
+Define Task: Write a Runnable task that prints the current time.
+
+Schedule Task: Use scheduleAtFixedRate() to execute the task at regular intervals.
+
+Shutdown Executor: Stop the executor after a specific delay using shutdown().
+
+📄  Output
+Task executed at: 20:10:01.123
+Task executed at: 20:10:04.124
+Task executed at: 20:10:07.125
+Task executed at: 20:10:10.126
+Task executed at: 20:10:13.127
+Shutting down scheduler...
+
+🧾 Result
+
+The program successfully schedules and executes tasks at fixed intervals, demonstrating how to use Java’s concurrent utilities for timed task management.
